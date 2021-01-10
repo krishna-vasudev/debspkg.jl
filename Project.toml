@@ -1,0 +1,13 @@
+name = "debspkg"
+uuid = "993688af-d8d9-4dcc-a8c3-32a2b879c972"
+authors = ["Debraj bhal"]
+version = "0.1.0"
+
+[compat]
+julia = "1.5.3"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
