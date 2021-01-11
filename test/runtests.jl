@@ -10,4 +10,6 @@ using Test
     @test f(3,1)==16
     @test f(1,1)==4
     @test f(0,0)==0
+    @test f(1,0)==1
+    @test f(0,1)==0
 end
