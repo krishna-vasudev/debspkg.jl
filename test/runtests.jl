@@ -11,5 +11,5 @@ using Test
     @test f(1,1)==4
     @test f(0,0)==0
     @test f(1,0)==1
-    @test f(0,1)==0
+    @test f(0,1)==1
 end
